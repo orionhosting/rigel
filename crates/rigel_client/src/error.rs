@@ -18,7 +18,9 @@ pub enum ClientError {
     #[error("config error: {0}")]
     Config(String),
 
-    #[error("host key for {host} does not match the one on record. Possible server change or MITM. recorded: {recorded_fingerprint}, offered: {offered_fingerprint}. If you trust this change, remove the old entry and reconnect.")]
+    #[error(
+        "host key for {host} does not match the one on record. Possible server change or MITM. recorded: {recorded_fingerprint}, offered: {offered_fingerprint}. If you trust this change, remove the old entry and reconnect."
+    )]
     HostKeyMismatch {
         host: String,
         recorded_fingerprint: String,
