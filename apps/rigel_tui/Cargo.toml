@@ -1,0 +1,15 @@
+[package]
+name = "rigel_tui"
+license = "GPL-3.0-or-later"
+description = "The Rigel TUI"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+repository.workspace = true
+
+[dependencies]
+rigel_client.workspace = true
+tokio.workspace = true
+anyhow.workspace = true
+ratatui = "0.30"
+crossterm = "0.29"
