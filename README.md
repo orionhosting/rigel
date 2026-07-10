@@ -20,7 +20,7 @@ the applications and libraries can be used independently of Orion.
 
 - [ ] Client-side SFTP
     - [x] (partially done) SFTP client core library
-    - [ ] SFTP TUI client application (Terminal UI)
+    - [x] (partially done) SFTP TUI client application (Terminal UI)
     - [ ] SFTP client application (desktop app)
 
 - [ ] Server-side SFTP
